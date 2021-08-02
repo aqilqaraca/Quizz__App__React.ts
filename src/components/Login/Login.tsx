@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     root: {
         '& > *': {
             margin: theme.spacing(3),
-            width: '50ch',
+            width: '100%',
             display: 'flex'
         },
     },

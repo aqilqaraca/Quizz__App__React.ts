@@ -6,3 +6,12 @@ form p{
     color: #f44336;
     margin: -16px 0 0px 36px;
 }
+@media (max-width:767px){
+    form{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
