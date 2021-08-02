@@ -1,0 +1,54 @@
+.add__box{
+    border: 2px solid rgb(63,81,181);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    cursor: pointer;
+    transition: .3s;
+    color: rgb(63,81,181);
+}
+.add__box:hover{
+    background-color: rgb(63,81,181);
+    color: #fff;
+}
+.add__question__box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+    
+    width: 100%;
+    height: 100%;
+}
+// .add__question__box::after{
+//     content: "";
+//     width: 100%;
+//     height: 100%;
+//     background-color: rgba(0,0,0,0.7);
+//     position: absolute;
+// }
+.add__question__box form {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: relative;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 10px 0 0;
+    cursor: pointer;
+}
+.add__question__box form div{
+    margin-bottom: 10px;
+}
+tbody tr:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
